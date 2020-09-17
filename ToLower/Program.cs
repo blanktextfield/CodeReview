@@ -7,9 +7,10 @@ namespace ToLower
         static void Main(string[] args)
         {
             /*A program asks the user to write a word in Uppercase and displays this input in lowercase*/
+            string UserInput;
             Console.WriteLine("Enter an uppercase word: ");
-            double userInput = Console.ReadLine().ToUpper();
-            Console.WriteLine(userInput);            
-        }
+             UserInput = Console.ReadLine().ToLower();
+            Console.WriteLine(UserInput);            
+        }   
     }
 }
